@@ -1,0 +1,9 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+requests==2.32.3
+matplotlib==3.9.2
+psycopg2-binary==2.9.13
+bcrypt==4.1.2
+PyJWT==2.15.1
+python-dotenv==1.2.3
+python-multipart==0.0.20
