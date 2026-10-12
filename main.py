@@ -48,7 +48,7 @@ CORS_ORIGINS = [
     origin.strip()
     for origin in os.getenv(
         'CORS_ORIGINS',
-        'http://localhost:5173,http://127.0.0.1:5173,https://bank-frontend-kappa.vercel.app',
+        'http://localhost:5173,http://127.0.0.1:5173,https://bank-frontend-kappa.vercel.app,https://bank-frontend-v2.vercel.app',
     ).split(',')
     if origin.strip()
 ]
